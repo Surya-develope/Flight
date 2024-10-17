@@ -86,7 +86,7 @@ public class Flight {
             System.out.println("4. Keluar");
             System.out.print("Pilih opsi: ");
             int choice = scanner.nextInt();
-            scanner.nextLine();  // Konsumsi newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
